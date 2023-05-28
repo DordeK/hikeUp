@@ -17,8 +17,8 @@ class Map extends React.Component {
     return (
       <div
         style={{
-          width: "800px",
-          height: "450px",
+          width: "100%",
+          height: "550px",
           backgroundColor: "#eeeeee"
         }}
       >

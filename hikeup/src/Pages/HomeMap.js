@@ -131,7 +131,7 @@ const Map = () => {
     <GoogleMap
       center={{ lat: 45.549083, lng: 13.727450 }}
       zoom={12}
-      mapContainerStyle={{ height: '400px', width: '100%' }}
+      mapContainerStyle={{ height: '470px', width: '100%' }}
     >
       {directions && <DirectionsRenderer directions={directions} />}
     </GoogleMap>

@@ -19,7 +19,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-          <Route path="/map" element={
+          <Route exec path="/map" element={
           <>
             <StreetView/>
             <HomeMap/>

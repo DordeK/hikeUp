@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const trails = [
   { name: 'Slovenian Istria: Where are those waterfalls???', distance: '10.17mi', elevation: '1844f' },
@@ -9,9 +10,13 @@ const trails = [
 ];
 
 function TrailButton() {
+  const navigate = useNavigate()
+
   const generateTrail = () => {
     const randomTrail = trails[Math.floor(Math.random() * trails.length)];
-    alert(`Trail Name: ${randomTrail.name}\nDistance: ${randomTrail.distance}\nElevation: ${randomTrail.elevation}`);
+    // alert(`Trail Name: ${randomTrail.name}\nDistance: ${randomTrail.distance}\nElevation: ${randomTrail.elevation}`);
+    navigate('/map')
+
   };
 
   return (
