@@ -1,0 +1,35 @@
+.leaderboard {
+    text-align: center;
+    color: #000;
+    background: linear-gradient(to right, #5C258D, #4389A2);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .leaderboard header {
+    padding: 20px;
+  }
+  
+  .leaderboard ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .leaderboard li {
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+  }
+  .leaderboard-link {
+    position: absolute;
+    top: 10px; 
+    right: 10px;
+    color: #000;
+    background: linear-gradient(to right, #5C258D, #4389A2);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+  }
+  
