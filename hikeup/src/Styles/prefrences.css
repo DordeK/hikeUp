@@ -1,0 +1,61 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #def2f1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #3caea3;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+
+form:hover {
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    transform: translateY(-7px);
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: all 0.3s ease 0s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: #2e9ca1;
+    box-shadow: 0 0 10px #2e9ca1;
+}
+
+button {
+    padding: 10px;
+    background-color: #2b7a78;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #17252a;
+}

@@ -6,6 +6,8 @@ import HomeMap from './Pages/HomeMap';
 import StreetView from './Pages/StreetView';
 import { GoogleMap, DirectionsService, useLoadScript, DirectionsRenderer } from '@react-google-maps/api';
 
+import Preferences from './Pages/Preferences';
+import Leaderboard from './Pages/Leaderboard';
 // import ContactPage from './page/ContactPage';
 
 const App = () => {
@@ -25,6 +27,10 @@ const App = () => {
           } />
           <Route path="/login" element={<Login/>} />
           <Route path="/" element={<HomePage/>} />
+           <Route path="/" element={<Login/>} />
+           <Route path="/home" element={<HomePage/>} />
+           <Route path="/preferences" element={<Preferences/>} />
+           <Route path="/Leaderboard" element={<Leaderboard/>} />
       </Routes>
     </Router>
     );
